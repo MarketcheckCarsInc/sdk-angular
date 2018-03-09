@@ -1,0 +1,17 @@
+export * from './dealer.service';
+import { DealerService } from './dealer.service';
+export * from './facets.service';
+import { FacetsService } from './facets.service';
+export * from './graphs.service';
+import { GraphsService } from './graphs.service';
+export * from './history.service';
+import { HistoryService } from './history.service';
+export * from './inventory.service';
+import { InventoryService } from './inventory.service';
+export * from './listings.service';
+import { ListingsService } from './listings.service';
+export * from './market.service';
+import { MarketService } from './market.service';
+export * from './vINDecoder.service';
+import { VINDecoderService } from './vINDecoder.service';
+export const APIS = [DealerService, FacetsService, GraphsService, HistoryService, InventoryService, ListingsService, MarketService, VINDecoderService];
